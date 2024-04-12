@@ -17,7 +17,7 @@ This repository serves as a learning playground for exploring Git and GitHub. It
 ### Clone the repository using HTTPS: 
 1. Copy the HTTPS link from GitHub.
 2. In your terminal, navigate to the folder where you want to store your project.
-    1. Give the command: **cd ~** (This command will take you to the root directory)
+    1. Give the command: **cd ~**. This command will take you to the root directory.
     2. If you want to clone the project into Documents/learning, then, give the command: **cd Documents/learning**
 3. Then in the terminal, give the command: **git clone <paste the HTTPS link copied in step 1>**
 
