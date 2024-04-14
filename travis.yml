@@ -1,0 +1,4 @@
+language: node
+
+install: 
+- npm i
