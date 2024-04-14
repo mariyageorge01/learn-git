@@ -1,4 +1,22 @@
-language: node
+language: node_js
+node_js: 
+  - "Hydrogen"
 
 install: 
-- npm i
+  - corepack enable
+  - npm install
+
+cache: 
+  npm: true
+
+stages: 
+  - name: lint
+    if: type = pull_request
+
+jobs: 
+  include: 
+    - stage: lint
+      name: "Code lint"
+      script: 
+        - npx --no -- commitlint
+
